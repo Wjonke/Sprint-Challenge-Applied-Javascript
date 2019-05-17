@@ -16,6 +16,52 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
+### Git Set up
+
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
+
+
+
+
+
+
+
+## Self-Study Questions
+
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+
+
+          1. What is the DOM?
+
+The Dom stands for Document Object Model, The Dom is where the HTML is represented in the browser as a node tree.
+
+
+          2. What is an event?
+
+An event is a user interaction such as mousing over something, clicking a button, etc. 
+
+
+          3. What is an event listener?
+
+An event listener is a tag that can be added to a component in JS that will "watch" for an event to take place, then run the function associated with it, such as a click event, when its clicked it runs the attached function.
+
+
+          4. Why would we convert a NodeList into an Array?
+
+A node list has a limited set of methods available to it (pretty much only .forEach) , by converting it to an array we gain the full functionality of an array; .map and such
+
+
+          5. What is a component?
+
+A component is a  custom element that uses the Dom to modify a website, they are stored separate from other code and can be used multiple times.
+
+
 ## Description
 
 You are going to create a Lambda Newspaper. Your job is going to be to add functionality to the tabs below the 'Lambda Times' logo. These tabs will act as filters for our articles, and when clicked on, should filter out all articles except those with that tag.
@@ -24,38 +70,25 @@ You are going to create a Lambda Newspaper. Your job is going to be to add funct
 
 In meeting the minimum viable product (MVP) specifications listed below, you should have a console full of correct responses to the problems given.
 
-## Self-Study Questions
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
-
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
-
-1. What is the DOM?
-
-2. What is an event?
-
-3. What is an event listener?
-
-4. Why would we convert a NodeList into an Array?
-
-5. What is a component?
-
-### Git Set up
-
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
+* [x] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [x] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
 * [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+
+
+
+
+
+
+
+
 
 ## Stretch Problems
 
